@@ -2,3 +2,25 @@
     padding-top: 94px;
     padding-bottom: 183px;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px red solid;
+}
+.stars{
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  text-align: center;
+}
+.paint{
+    text-align: center;
+    margin-top: 260px;
+    margin-right: 150px;
+    font-size: 16px;
+}
+.img{
+    margin-bottom: 100px;
+    width: 300px;
+}
