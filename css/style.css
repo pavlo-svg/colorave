@@ -1,6 +1,19 @@
 body {
   background-color: rgba(1, 45, 99, 1);
 }
+.Nike {
+  width: 160;
+  height: 120;
+  top: 184px;
+  left: 171px;
+}
+.Nike-CR {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
 .hero {
   padding-top: 94px;
   padding-bottom: 183px;
@@ -22,11 +35,29 @@ body {
   font-size: 72px;
   line-height: 100%;
   letter-spacing: 0%;
+  margin-bottom: 12px;
 }
 .hero-text {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 41px;
+}
+.hero-buttom {
+  width: 254;
+  height: 67;
+  top: 698px;
+  left: 165px;
+  border-radius: 10px;
+  background-color: rgba(142, 50, 198, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.Buy {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
 }
@@ -50,7 +81,6 @@ body {
   letter-spacing: 0%;
   text-align: center;
   color: white;
-
 }
 .rev-text {
   font-family: Playfair Display;
@@ -60,7 +90,6 @@ body {
   letter-spacing: 0%;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-;
 }
 .header {
   display: flex;
@@ -81,6 +110,17 @@ body {
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
+  color: rgba(199, 199, 199, 1);
+}
+.nav-link:hover {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
 }
 .header-nav {
   margin-right: auto;
