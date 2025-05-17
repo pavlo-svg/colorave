@@ -67,6 +67,9 @@ body {
   padding: 0 15px;
   border: 1px red solid;
 }
+.stars {
+  background-image: url(../img/Group.png);
+}
 .stars-list {
   display: flex;
   gap: 28px;
@@ -129,8 +132,21 @@ body {
   display: flex;
   gap: 29px;
 }
-.rev-list {
+.rev{
+  background-image: url(../img/Grouprev.png);
+}
+.rev-title{
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.rev-text{
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.rev-list{
+
 }
