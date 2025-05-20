@@ -44,15 +44,19 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   margin-bottom: 41px;
+  width: 500px;
 }
 .hero-buttom {
-  width: 254;
-  height: 67;
-  top: 698px;
-  left: 165px;
   border-radius: 10px;
   background-color: rgba(142, 50, 198, 1);
   color: rgba(255, 255, 255, 1);
+  border-color: transparent;
+  padding: 20px 61px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .Buy {
   font-family: "Roboto";
@@ -69,12 +73,17 @@ body {
 }
 .stars {
   background-image: url(../img/Group.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 105px;
+  padding-bottom: 105px;
 }
 .stars-list {
   display: flex;
-  gap: 28px;
+  gap: 145px;
   justify-content: center;
   text-align: center;
+  border: 5px solid rgba(142, 50, 198, 1);
 }
 .stars-text {
   font-family: Playfair Display;
@@ -132,21 +141,20 @@ body {
   display: flex;
   gap: 29px;
 }
-.rev{
+.rev {
   background-image: url(../img/Grouprev.png);
 }
-.rev-title{
+.rev-title {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.rev-text{
+.rev-text {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
 }
-.rev-list{
-
+.rev-list {
 }
